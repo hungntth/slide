@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: ; */
+}
+body{
+    background-color: lightblue;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 600px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.container .left_Slide{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+
+input[type="radio"]{
+    width: 175px;
+    height: 112px;
+    display: block;
+    border: 1px solid gray;
+    -webkit-appearance: none;
+    margin:0px 5px 10px 5px;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked{
+    border: 3px solid #00baff;
+}
+
+.container .right_Slide{
+    position: relative;
+    background: #fbfbfb;
+    padding: 40px;
+    border: 1px solid #ddd;
+    
+}
+
+.display_img{
+    position: relative;
+    width: 750px;
+    height: 500px;
+    border: 1px solid gray;
+    background-image: url(http://elmistibota.com/wp-content/uploads/2021/08/canh-dep-viet-nam-top.jpg);
+    background-size: cover;
+}
+
+#one{
+    background-image: url(http://elmistibota.com/wp-content/uploads/2021/08/canh-dep-viet-nam-top.jpg);
+    background-size: cover;
+}
+#two{
+    background-image: url(http://elmistibota.com/wp-content/uploads/2021/08/canh-dep-viet-nam-12.jpg);
+    background-size: cover;
+}
+#three{
+    background-image: url(http://elmistibota.com/wp-content/uploads/2021/08/canh-dep-viet-nam-2-1024x569.jpg);
+    background-size: cover;
+}
+#four{
+    background-image: url(http://elmistibota.com/wp-content/uploads/2021/08/canh-dep-viet-nam-7-1024x682.jpg);
+    background-size: cover;
+}
+
+ol{
+    font-weight: bold;
+}
+
+
